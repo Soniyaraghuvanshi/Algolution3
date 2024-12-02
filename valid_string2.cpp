@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-bool isValidBruteForce(string s) {
+bool isValid(string s) {
     int n = s.length();
 
     while (true) {
@@ -32,7 +32,7 @@ int main() {
     cout << "Enter the string of brackets: ";
     cin >> s;
 
-    if (isValidBruteForce(s)) {
+    if (isValid(s)) {
         cout << "The string is valid!" << endl;
     } else {
         cout << "The string is not valid!" << endl;
